@@ -28,3 +28,18 @@ button{
     font-family: 'Aldrich', sans-serif;
     border: none;
 }
+.btns{
+    color: white;
+    font-size: 30px;
+    display: none;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+@media (max-width:768px){
+    .navbar{
+        display: none;
+    }
+    .btns{
+        display: block;
+    }
+}
