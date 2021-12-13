@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.texto-claro{
+/* Property 1=Default */
+font-family: 'Aldrich', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+color: #E7FFD4;
+
+}
+.texto-oscuro{
+    /* Property 1=Default */
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: black;
+}
+
+.texto-morado{
+    /* Property 1=Default */
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    
+    color: #B000DD;;
+    
+}

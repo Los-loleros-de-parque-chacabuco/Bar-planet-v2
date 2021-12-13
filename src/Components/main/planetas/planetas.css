@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.Planetas-contain{
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+.Planeta{
+  border: solid 1px violet;
+  height: 500px;
+  width: 100%;
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+}
+.two{
+    display: flex;
+    justify-content: flex-end;
+}
+.three{
+    display: flex;
+    justify-content: flex-start;
+}
+.Planeta-one, .Planeta-two, .Planeta-three{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.Planeta-one{
+    background: linear-gradient(180deg, #B000DD 0%, rgba(190, 225, 163, 0) 100%);
+}
+.Planeta-two{
+    background: linear-gradient(180deg, #b1d199da 0%, rgba(190, 225, 163, 0) 100%);
+}
+.Planeta-three{
+    background: linear-gradient(180deg, #B000DD 0%, rgba(190, 225, 163, 0) 100%); 
+}
+@media (max-width:750px){
+    .Planeta-one, .Planeta-two, .Planeta-three{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+}

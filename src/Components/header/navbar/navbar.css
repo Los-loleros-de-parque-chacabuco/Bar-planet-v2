@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+.contendorNav{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 90%;
+margin: auto;
+border: solid 1px blueviolet;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height:120px;
+    border: solid 1px yellow;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    width:40%;
+}
+button{
+    padding: 15px;
+    background-color: black;
+    color: #E7FFD4;
+    width:150px;
+    font-size: 18px;
+    font-family: 'Aldrich', sans-serif;
+    border: none;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.carrusel{
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:85px; */
+    border: solid 1px red;
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 0px 0px 130px 0px; */
+    font-family: 'Orbitron', sans-serif;
+    height: 80vh;
+}

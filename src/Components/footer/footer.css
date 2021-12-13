@@ -1,0 +1,43 @@
+.footer{
+    background: #BEE1A3;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 250px;
+    margin-top: 180px;
+}
+
+.menuFooter{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+font-size: 18px;
+margin-left: 120px;
+}
+
+.iconosFooter{
+display: flex;
+justify-content: flex-end; 
+width: 1000px; 
+}
+.iconos{
+display: flex;
+flex-direction: column;
+margin: 25px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    
+}
+.instagram-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mail-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,14 @@
+/* titulos principales */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.titulo-principal{
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-transform: uppercase;
+font-feature-settings: 'tnum' on, 'onum' on, 'liga' off, 'kern' off;
+
+color: #E7FFD4;
+}
