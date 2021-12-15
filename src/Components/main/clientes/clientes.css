@@ -1,13 +1,17 @@
 .Clientes{
-    border: solid 1px brown;
+    /* border: solid 1px brown; */
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
     gap: 5px;
+    padding-bottom: 100px;
+}
+.Titulo-clientes{
+    padding-top: 100px;
 }
 .cliente-one, .cliente-two, .cliente-three{
-    border: solid 1px violet;
+    /* border: solid 1px violet; */
 }
 @media (max-width:750px){
     .cliente-one, .cliente-two, .cliente-three{
@@ -17,27 +21,37 @@
         width: 200px;
     }
 }
-@media (max-width:682px){
+/* @media (max-width:682px){
     .cliente-one, .cliente-two, .cliente-three{
         width: 90%;
     }
     .img-cliente{
         width: 90%;
     }
-}
+} */
 @media (max-width:600px){
-    .Clientes{
+    /* .Clientes{
         width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 5px;
-    }
+    } */
     /* .cliente-one, .cliente-two, .cliente-three{
         width: 90%;
     }
     .img-cliente{
         width: 90%;
     } */
+}
+@media (max-width:768px){
+    .Clientes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
 }

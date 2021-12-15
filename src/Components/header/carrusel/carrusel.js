@@ -1,6 +1,6 @@
 import React from "react";
 import "./carrusel.css";
-
+import bg from "../../../assets/bg.svg"
 
 function Carrusel() {
     return (

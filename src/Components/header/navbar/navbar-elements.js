@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 90%;
-    border:solid 1px violet;
+    // border:solid 1px violet;
     margin:auto;
 `;
 
@@ -49,7 +49,7 @@ export const MenuLink = styled.a`
     cursor:pointer;
 
     &:hover{
-        color:violet;
+        color:red;
     }
 `;
 
@@ -63,7 +63,7 @@ export const MobileIcon = styled.div`
     }
 
     svg{
-        fill: #e07924;
+        fill: white;
         margin-right:0.5rem;
     }
 `;

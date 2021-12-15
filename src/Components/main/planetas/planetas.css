@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 .Planetas-contain{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -10,7 +10,7 @@
     margin: auto;
 }
 .Planeta{
-  border: solid 1px violet;
+  /* border: solid 1px violet; */
   height: 500px;
   width: 100%;
 }
@@ -44,6 +44,18 @@
     .Planeta-one, .Planeta-two, .Planeta-three{
         width: 350px;
         height: 350px;
+        border-radius: 50%;
+    }
+}
+@media (max-width:768px){
+    .Planetas-contain{
+        width: 100%;
+    }
+}
+@media (max-width:280px){
+    .Planeta-one, .Planeta-two, .Planeta-three{
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
     }
 }

@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
-.contendorNav{
+/* .contendorNav{
 display: flex;
 flex-wrap: nowrap;
 justify-content: space-between;
 width: 90%;
 margin: auto;
 border: solid 1px blueviolet;
-}
+} */
 
 .logo{
     display: flex;
     justify-content: flex-start;
     height:120px;
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
 }
 .navbar{
     display: flex;

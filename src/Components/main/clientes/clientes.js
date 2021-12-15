@@ -18,7 +18,7 @@ function Clientes() {
 
     return (
         <>
-          <div className="Titulo-clientes">
+          <div data-aos="fade-up" className="Titulo-clientes">
                 <TituloPrincipal contenido="Que dicen nuestros clientes"></TituloPrincipal>
             </div>
                 <div className="Clientes">

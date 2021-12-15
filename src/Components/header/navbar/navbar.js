@@ -22,17 +22,17 @@ const Navbar = () => {
         <Menu open={showMobileMenu}>
           <MenuItems>
             <MenuLink>
-              Home          
-            </MenuLink>
-          </MenuItems>
-          <MenuItems>
-            <MenuLink>
-              About          
+              Nosotros          
             </MenuLink>
           </MenuItems>
           <MenuItems>
             <MenuLink>
               Menu          
+            </MenuLink>
+          </MenuItems>
+          <MenuItems>
+            <MenuLink>
+              Contactanos          
             </MenuLink>
           </MenuItems>
           <MenuItems>
