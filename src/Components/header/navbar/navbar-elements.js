@@ -28,7 +28,8 @@ export const Menu = styled.ul`
         width:50%;
         height:100vh;
         z-index:2;
-        background-color:violet;
+        background-color:black;
+        box-shadow: rgba(176, 0, 221, 0.25);
         display:flex;
         flex-direction:column;
         justify-content:space-around;
@@ -47,10 +48,6 @@ export const MenuLink = styled.a`
     color:white;
     margin-right:25px;
     cursor:pointer;
-
-    &:hover{
-        color:red;
-    }
 `;
 
 export const MobileIcon = styled.div`

@@ -39,6 +39,7 @@
 }
 .Planeta-three{
     background: linear-gradient(180deg, #B000DD 0%, rgba(190, 225, 163, 0) 100%); 
+    margin-bottom: 100px;
 }
 @media (max-width:750px){
     .Planeta-one, .Planeta-two, .Planeta-three{
