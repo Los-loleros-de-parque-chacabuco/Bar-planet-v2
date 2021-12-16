@@ -19,7 +19,8 @@ border: solid 1px blueviolet;
     justify-content: flex-end;
     width:40%;
 }
-button{
+
+.link{
     padding: 15px;
     background-color: black;
     color: #E7FFD4;
@@ -27,6 +28,7 @@ button{
     font-size: 18px;
     font-family: 'Aldrich', sans-serif;
     border: none;
+    text-decoration: none;
 }
 .btns{
     color: white;

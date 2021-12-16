@@ -1,48 +1,54 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import Logo from "../../../assets/logo.png"
-import {Container, LogoContainer, Menu, MenuItems, MenuLink, MobileIcon, Wrapper} from './navbar-elements'
+import carrito from "../../../assets/carrito.png"
+import { Container, LogoContainer, Menu, MenuItems, MenuLink, MobileIcon, Wrapper } from './navbar-elements'
 import { FaAlignRight } from "react-icons/fa";
+import {
+  Link
+} from "react-router-dom";
+
 const Navbar = () => {
-  
-  const [showMobileMenu, setShowMobileMenu]= useState(false);
+
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
 
   return (
+
     <Container>
       <Wrapper>
         <LogoContainer className='logo'>
-          <img src={Logo}/>
+          <img src={Logo} />
         </LogoContainer>
-
-          <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
-            <FaAlignRight></FaAlignRight>
-          </MobileIcon>
+        <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
+          <FaAlignRight></FaAlignRight>
+        </MobileIcon>
 
         <Menu open={showMobileMenu}>
           <MenuItems>
             <MenuLink>
-              Nosotros          
+              <Link className='link' to="/">Nosotros</Link>
             </MenuLink>
           </MenuItems>
           <MenuItems>
             <MenuLink>
-              Menu          
+              <Link className='link' to="/Menu">Menu</Link>
             </MenuLink>
           </MenuItems>
           <MenuItems>
             <MenuLink>
-              Contactanos          
+              <Link className='link' to="/Contactos">Contactanos</Link>
             </MenuLink>
           </MenuItems>
           <MenuItems>
             <MenuLink>
-              Carrito          
+              <img src={carrito} />
             </MenuLink>
           </MenuItems>
         </Menu>
       </Wrapper>
     </Container>
+
   );
 }
 
