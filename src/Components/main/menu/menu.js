@@ -5,6 +5,7 @@ import TituloMaster from "../../tipografias/titulos-master/titulos-master";
 function Menu() {
     return (
         <TituloMaster contenido={"Menú"}></TituloMaster>
+        
     );
 }
 export default Menu;
