@@ -10,7 +10,7 @@ function Home() {
     <div className="home-body">
       <Header />
       <Main />
-      <Footer/>
+
     </div>
   );
 }

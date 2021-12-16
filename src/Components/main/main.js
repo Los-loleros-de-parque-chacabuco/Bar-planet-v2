@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import "./main.css";
 import Planetas from "./planetas/planetas";
 import Clientes from "./clientes/clientes";

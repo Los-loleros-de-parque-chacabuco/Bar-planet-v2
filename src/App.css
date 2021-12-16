@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -39,9 +40,6 @@
 body{
   width: 100%;
   background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   overflow-x: hidden;
 }
 

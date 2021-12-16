@@ -1,10 +1,10 @@
 import React from "react";
 import "./menu.css"
-import TituloPrincipal from "../../tipografias/titulos-principales/titulos-principales";
+import TituloMaster from "../../tipografias/titulos-master/titulos-master";
 
 function Menu() {
     return (
-        <TituloPrincipal>Estas en Menu</TituloPrincipal>
+        <TituloMaster contenido={"Menú"}></TituloMaster>
     );
 }
 export default Menu;

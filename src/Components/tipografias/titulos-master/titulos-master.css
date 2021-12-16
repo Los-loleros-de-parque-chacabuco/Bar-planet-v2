@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 .titulo-master{
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
 font-family: 'Orbitron', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -15,6 +9,6 @@ font-size: 48px;
 line-height: 60px;
 text-transform: uppercase;
 font-feature-settings: 'tnum' on, 'onum' on;
-
 color: #FFFFFF;
+margin: 20px;
 }
