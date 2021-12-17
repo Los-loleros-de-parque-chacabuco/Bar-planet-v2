@@ -1,4 +1,4 @@
-const productos = {
+export const productos = [
     estrellas : {
     1:{
      nombre: "Tiramisu de algas espaciales",
@@ -72,5 +72,4 @@ const productos = {
          id:"Discos reptilianos",
         },
     }
-  }
-  export default productos;
+  ]
