@@ -1,8 +1,15 @@
+<<<<<<< HEAD
  export const Productos = [
      {
        estrellas:[
    {
      nombre:"Tiramisu de algas espaciales",
+=======
+export const productos = [
+    estrellas : {
+    1:{
+     nombre: "Tiramisu de algas espaciales",
+>>>>>>> 1ebad3bb0f80189019936bb2814fe4e37714b9d6
      descripcion:"El tiramisú de algas espaciales es un pastel frío que se monta en capas de algas del mar senico lunar y se deja fermentar en los fociles de un marciano Θ Ι Κ Λ",
      precio:650,
      imagen:'../../../assets/Comidas/tiramisu.jpg"', 
@@ -72,6 +79,11 @@
          imagen:'../../../assets/Comidas/discos.jpg"',
          id:"Discos reptilianos",
         },
+<<<<<<< HEAD
     ],
     },
 ];
+=======
+    }
+  ]
+>>>>>>> 1ebad3bb0f80189019936bb2814fe4e37714b9d6
