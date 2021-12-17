@@ -2,18 +2,19 @@ import React from "react";
 import "./tarjetas.css"
 import productos from "../../../../objeto/objeto";
 import { Link } from 'react-router-dom'
-
+import TituloPrincipal from "../../../tipografias/titulos-principales/titulos-principales"
 
 function Tarjetas(){
     return(
     <div className="tarjetas">
     {productos.map(producto => {
 return(
-<div key={producto.id}> 
-<Link to={`descripcion-producto/${producto.id}`}> 
+<div key={producto.estrellas.id}> 
+<h1>{productos.estrellas.nombre}</h1>
+{/* <Link to={`descripcion-producto/${producto.id}`}/>  */}
 </div>  
 );
-}
+})}
  </div>       
 
     );

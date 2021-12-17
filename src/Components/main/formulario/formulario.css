@@ -1,67 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-.Contacto {
-    /* margin-top: 100px;
-    margin-left: 50px; */
-    margin: 100px 50px;
-}
-
-.contact-form {
-    list-style-type: none;
-}
-
-.contact-form li div {
-    margin-bottom: 2.5em;
-}
-
-.contact-form input,
-.contact-form textarea,
-.contact-form select {
+.formulario{
     display: flex;
-    flex-wrap: nowrap;
-    width: 50%;
-    margin: 0;
-    padding-bottom: 1.4em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    border-bottom: 3px solid #BEE1A3;
-    background: black;
-    font-family: 'Aldrich', sans-serif;
-    color: #E7FFD4;
-    font-weight: 700;
-    font-size: 18px;
-    transition: ease-in-out 0.25s;
+    flex-direction: column;
+    border: solid 1px blue;
+    height: 650px;
+    padding-left: 50px;
+    justify-content: center;
 }
-
-.contact-form textarea {
-    min-height: 50px;
-    max-height: 500px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    resize: vertical;
-    overflow: hidden;
-    
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    font-size: 20px;
 }
-
-.contact-form ::-webkit-input-placeholder {
-    font-size: 12px;
-    color:#E7FFD4;
-    text-transform: uppercase;
-    font-weight: 400;
+.form input, .asunto{
+    width: 60%;
+    color: white;
+    font-size: 22px;
 }
-.contact-form input:focus,
-.contact-form select:focus,
-.contact-form textarea:focus,
-.contact-form button:focus {
-    outline: none;
-    resize: none;
-    border-bottom: 3px solid #B000DD;
-}
-
-button {
+.form .enviar_btn{
     color:black;
     background:#BEE1A3;
     border-radius: 50px;
@@ -75,4 +33,33 @@ button {
     transition: ease-in-out 0.25s;
     font-family: 'Aldrich', sans-serif;
 }
-
+.form input, textarea, select{
+    background-color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 5px #BEE1A3;
+    outline: 0px;
+    height: 50px;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+}
+.form input:focus,
+.form textarea:focus,
+.form select:focus{
+    background-color: black;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: solid 5px #B000DD;
+    transition: 0.5s;
+}
+@media (max-width:768px){
+    .form input, .asunto{
+        width: 80%;
+        color: white;
+        font-size: 15px;
+    }
+}

@@ -1,58 +1,23 @@
 import React from "react";
 import "./formulario.css"
-
+import Titulo from "../../tipografias/titulos-master/titulos-master"
+import TituloMaster from "../../tipografias/titulos-master/titulos-master";
 function Formulario() {
     return (
-        <div className="formulario">
-            <div className="Contacto" id="contact">
-                <div className="row">
-                    <div className="col-md-12">
-                        <form method="post" action="">
-                            <ul className="contact-form">
-                                <li>
-                                    <div className="col-md-6">
-                                        <input name="nombre" placeholder="Nombre" required="required" size="8"
-                                            type="text" />
-                                    </div>
-
-                                    <div className="col-md-6">
-                                        <input name="apellido" placeholder="Apellido" required="required" size="8" type="text" />
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div className="col-md-12">
-                                        <input name="email" placeholder="Email"
-                                            required="required" size="8" type="email" />
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="col-md-6">
-                                        <input name="telefono" placeholder="Numero de telefono" required="required" size="8"
-                                            type="text" />
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div className="col-md-12">
-                                        <textarea class="span12" name="mensaje" placeholder="Mensaje" required="required"></textarea>
-                                    </div>
-                                </li>
-                            </ul>
-                        </form>
-                        <li>
-                                <div className="col-md-12">
-                                    <button className="boton"> 
-                                Contactanos
-                                        <span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-                                    </button>
-                                </div>
-                            </li>
-                    </div>
-                </div>
+        <>
+            <div className="Contacto" id="contacto">
+            <div className="formulario">
+                <form className="form">
+                    <input name="nombre" placeholder="Nombre" className="name" required/>
+                    <input type="text" name="apellido" placeholder="Apellido"/>
+                    <input type="email" name="email" placeholder="Email"/>
+                    <input type="text" name="telefono" placeholder="Teléfono"/>
+                    <textarea name="asunto" placeholder="Asunto" className="asunto" required></textarea>
+                    <button type="submit" value="Enviar" className="enviar_btn">Enviar</button>
+                </form>
             </div>
-
         </div>
+    </>
     );
 }
 export default Formulario;
