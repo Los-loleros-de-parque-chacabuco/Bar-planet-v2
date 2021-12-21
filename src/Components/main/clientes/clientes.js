@@ -23,15 +23,15 @@ function Clientes() {
             </div>
                 <div className="Clientes">
                     <div data-aos="fade-up" className="cliente-one">
-                        <img className="img-cliente" src={Cliente1} width="220px" />
+                        <img className="img-cliente" src={Cliente1} width="220px" height="210px" />
                         <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "></TextoClaro>
                     </div>
                     <div data-aos="fade-up" className="cliente-two">
-                        <img className="img-cliente" src={Cliente2} width="220px" />
+                        <img className="img-cliente" src={Cliente2} width="220px" height="210px" />
                         <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TextoClaro>
                     </div>
                     <div data-aos="fade-up" className="cliente-three">
-                        <img className="img-cliente" src={Cliente3} width="220px" />
+                        <img className="img-cliente" src={Cliente3} width="220px" height="210px" />
                         <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TextoClaro>
                     </div>
                 </div>

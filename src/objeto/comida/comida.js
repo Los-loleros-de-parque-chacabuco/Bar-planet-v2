@@ -3,17 +3,18 @@ import "./comida.css"
 
 
 const Comida = ({ comida, cart, setCart, comidas }) => {
-    const { nombre, precio, descripcion, id, imagen } = comida
+    const { nombre, precio, descripcion, id, imagen } = comida;
 
     // Funcion para agregar comida al carito    
     const addComida = (id) => {
         const comida = comidas.filter((comida) => comida.id === id);
-        setCart([...cart, ...comida])
+        setCart([...cart, ...comida]);
     };
+
     //Funcion para elinimar comida del carrito
     const delComida = (id) => {
-        const comidas = cart.filter(comida => comida.id !== id)
-        setCart(comidas)
+        const comidas = cart.filter((comida) => comida.id !== id);
+        setCart(comidas);
     };
 
     return (
@@ -26,9 +27,10 @@ const Comida = ({ comida, cart, setCart, comidas }) => {
 
                 {comidas ? (
 
-                    <button type="button" onClick={() => addComida(id)}> Agregar al carrito </button>
+                    <button type="button" className="buttons" onClick={() => addComida(id)}> Agregar al carrito </button>
                 ) : (
-                    <button type="button" onClick={() => delComida(id)}>Eliminar</button>
+
+                    <button type="button" onClick={() => delComida(id)}> Eliminar </button>
                 )}
             </ul>
         </div>

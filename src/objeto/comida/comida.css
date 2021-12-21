@@ -6,3 +6,9 @@
     height:150px;
     border-radius:75px;
 }
+
+.buttons{
+    background-color:rgb(32,32,44);
+    border:solid 1px;
+    margin-top:8px;
+}

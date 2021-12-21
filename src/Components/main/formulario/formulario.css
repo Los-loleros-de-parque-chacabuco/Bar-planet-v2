@@ -2,7 +2,6 @@
 .formulario{
     display: flex;
     flex-direction: column;
-    border: solid 1px blue;
     height: 650px;
     padding-left: 50px;
     justify-content: center;

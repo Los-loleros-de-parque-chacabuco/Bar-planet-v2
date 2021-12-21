@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.colorTitulo{
+color:#BEE1A3;
+font-family: 'Orbitron', sans-serif;
+display: flex;
+justify-content: center;
+font-family: 'Orbitron', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-transform: uppercase;
+font-feature-settings: 'tnum' on, 'onum' on, 'liga' off, 'kern' off;
+}
+
+* {
+    font-family: 'Aldrich', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+color:#BEE1A3;
+
+  }
+
+.Bebidas{
+  color: #BEE1A3;
+}  

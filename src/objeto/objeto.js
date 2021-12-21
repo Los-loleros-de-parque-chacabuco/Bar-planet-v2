@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./objeto.css";
 import Comida from "./comida/comida";
-import Carrito from "./comida/carrito";
+import Carrito from "./carrito/carrito";
 import Tiramisu from"../assets/Comidas/tiramisu.jpg"
 import Licuado from"../assets/Comidas/licuado.jpg"
 import Gusanos from"../assets/Comidas/gusanos.jpg"
@@ -14,11 +14,12 @@ import Sesos from"../assets/Comidas/sesos.jpg"
 import Discos from"../assets/Comidas/discos.jpg"
 
 
+
 function Objeto() {
   const [comidas, setComidas] = useState([
-    {
+  {
       nombre: "Tiramisu de algas espaciales",
-      descripcion: "El tiramisú de algas espaciales es un pastel frío que se monta en capas de algas del mar senico lunar y se deja fermentar en los fociles de un marciano Θ Ι Κ Λ",
+      descripcion: "El tiramisú de algas espaciales es un pastel frío que se monta en capas de algas del mar senico lunar y se deja fermentar en los fosiles de un marciano Θ Ι Κ Λ",
       precio: 650,
       imagen:Tiramisu,
       id: "Tiramisu de algas espaciales",
@@ -54,7 +55,7 @@ function Objeto() {
     },
     {
       nombre: "Babosas regurgitadas de estrella fugaz",
-      descripcion: "Es un rollo elaborado de una pasta de humus  relleno de diferentes verduras picadas al estilo Yoda y algo de carne de procedensia desconocida",
+      descripcion: "Es un rollo elaborado de una pasta de humus  relleno de diferentes verduras picadas al estilo Yoda y algo de carne de procedencia desconocida",
       precio: 600,
       imagen:Babosas,
       id: "Babosas regurgitadas de estrella fugaz",
@@ -87,13 +88,18 @@ function Objeto() {
       imagen:Discos,
       id: "Discos reptilianos",
     },
-  ])
+  ]);
+
+  
+
+  
+  
   //CARRITO DE COMPRA
   const [cart, setCart] = useState([]);
 
   return (
     <Fragment>
-      <h3>Comida</h3>
+    <h2 className="colorTitulo">Platos espaciales</h2>
       {comidas.map((comida) => (
         <Comida
           key={comida.id}
