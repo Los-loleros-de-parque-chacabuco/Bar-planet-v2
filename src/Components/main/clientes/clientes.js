@@ -24,15 +24,15 @@ function Clientes() {
                 <div className="Clientes">
                     <div data-aos="fade-up" className="cliente-one">
                         <img className="img-cliente" src={Cliente1} width="220px" height="210px" />
-                        <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "></TextoClaro>
+                        <TextoClaro contenido="Muy buen bar fui con mis amigas y la pasamos ¡genial!, la comida estaba muy rica y tanto el servicion como el entretenimiento estuvieron excelentes"></TextoClaro>
                     </div>
                     <div data-aos="fade-up" className="cliente-two">
                         <img className="img-cliente" src={Cliente2} width="220px" height="210px" />
-                        <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TextoClaro>
+                        <TextoClaro contenido="الع333ربي0ة‎ al-ʻarabqqīy loloah o عربيwaf/عرب 1002-scvzas ⭐⭐⭐⭐⭐"></TextoClaro>
                     </div>
                     <div data-aos="fade-up" className="cliente-three">
                         <img className="img-cliente" src={Cliente3} width="220px" height="210px" />
-                        <TextoClaro contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TextoClaro>
+                        <TextoClaro contenido="Bar Planet es un lugar ideal para tomarse una copas despues del trabajo y mas cuando uno viene de arrestar a unos Bukis en sol sideral "></TextoClaro>
                     </div>
                 </div>
         </>

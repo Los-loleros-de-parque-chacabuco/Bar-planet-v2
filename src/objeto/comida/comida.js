@@ -3,18 +3,19 @@ import "./comida.css"
 
 
 const Comida = ({ comida, cart, setCart, comidas }) => {
-    const { nombre, precio, descripcion, id, imagen } = comida;
-
-    // Funcion para agregar comida al carito    
+    const { nombre, precio, descripcion, id, imagen }= comida;
+// Funcion para agregar comida al carito    
     const addComida = (id) => {
-        const comida = comidas.filter((comida) => comida.id === id);
-        setCart([...cart, ...comida]);
+        const comidaFilter = comidas.filter((comida) => comida.id === id);
+        setCart([...cart, ...comidaFilter]);
+       
     };
 
     //Funcion para elinimar comida del carrito
     const delComida = (id) => {
-        const comidas = cart.filter((comida) => comida.id !== id);
-        setCart(comidas);
+        const comidasFilter = cart.filter((comida) => comida.id !== id);
+        setCart(comidasFilter);
+      
     };
 
     return (
@@ -23,14 +24,14 @@ const Comida = ({ comida, cart, setCart, comidas }) => {
                 <img src={imagen} className="imagenes"></img>
                 <li>{nombre} </li>
                 <li>{descripcion}</li>
-                <li>${precio}</li>
+                <li>Θ{precio}</li>
 
                 {comidas ? (
 
                     <button type="button" className="buttons" onClick={() => addComida(id)}> Agregar al carrito </button>
                 ) : (
 
-                    <button type="button" onClick={() => delComida(id)}> Eliminar </button>
+                    <button type="button" className="buttons" onClick={() => delComida(id)}> Eliminar </button>
                 )}
             </ul>
         </div>

@@ -16,10 +16,10 @@ import Discos from"../assets/Comidas/discos.jpg"
 
 
 function Objeto() {
-  const [comidas, setComidas] = useState([
+  const comidas =([
   {
       nombre: "Tiramisu de algas espaciales",
-      descripcion: "El tiramisú de algas espaciales es un pastel frío que se monta en capas de algas del mar senico lunar y se deja fermentar en los fosiles de un marciano Θ Ι Κ Λ",
+      descripcion: "El tiramisú de algas espaciales es un pastel frío que se monta en capas de algas del mar senico lunar y se deja fermentar en los fosiles de un marciano Ι Κ Λ",
       precio: 650,
       imagen:Tiramisu,
       id: "Tiramisu de algas espaciales",
@@ -112,6 +112,7 @@ function Objeto() {
       ))}
       <Carrito
         cart={cart}
+        setCart={setCart}
       />
     </Fragment>
   );
