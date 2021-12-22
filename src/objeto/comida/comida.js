@@ -50,7 +50,7 @@ const Comida = ({ comida, cart, setCart, comidas }) => {
 
                     <>
                         <button type="button" className="buttons" onClick={refreshPage}> <span>Vaciar carrito</span> </button>
-                        <button type="button" className="buttons" onClick={Alerta}> <span>Comprar</span> </button>
+                        <button type="button" className="buttons" onClick={Alerta} > <span>Comprar</span> </button>
                     </>
                 )}
             </ul>
