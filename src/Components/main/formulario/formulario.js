@@ -1,11 +1,18 @@
 import React from "react";
 import "./formulario.css"
-import Titulo from "../../tipografias/titulos-master/titulos-master"
-import TituloMaster from "../../tipografias/titulos-master/titulos-master";
+import Moon from '../../../assets/moon.png'
+import Ete from '../../../assets/ete.png'
+
 function Formulario() {
     return (
         <>
-            <div className="Contacto" id="contacto">
+           <div className="Contacto" id="contacto">
+                <div className="animacion-moon">
+                    <img className="moon" src={Moon} width="300px" height="280px"></img>
+                </div>
+                <div className="animacion-ete">
+                    <img className="ete" src={Ete} width="150px" height="150px"></img>
+                </div>
                 <div className="formulario">
                     <form className="form" action="https://formsubmit.co/bar.planet98@gmail.com" method="POST">
                         <input type="hidden" name="_subject" value="New submission!" />
@@ -17,7 +24,7 @@ function Formulario() {
                         <button type="submit" value="Enviar" className="enviar_btn">Enviar</button>
                     </form>
                 </div>
-            </div>
+            </div> 
 
         </>
     );

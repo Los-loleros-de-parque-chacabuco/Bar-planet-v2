@@ -7,19 +7,19 @@ function Footer() {
     return (
         <div className="footer-contain">
             <div className="footer">
-                <div data-aos="zoom-in" className="nosotros">
+                <div  className="nosotros">
                     <TextoOscuro contenido="Nosotros"></TextoOscuro>
                 </div>
-                <div data-aos="zoom-in" className="menu">
+                <div  className="menu">
                     <TextoOscuro contenido="Menu"></TextoOscuro>
                 </div>
-                <div data-aos="zoom-in" className="contactanos">
+                <div  className="contactanos">
                 </div>
-                <div data-aos="zoom-in" className="carrito">
+                <div className="carrito">
                     <TextoOscuro contenido="Carrito"></TextoOscuro>
                 </div>
             </div>
-            <div data-aos="zoom-in" className="redes">
+            <div  className="redes">
                 <TextoOscuro contenido="Redes"></TextoOscuro>
                <div className="instagram">
                     {/* <TextoOscuro contenido="Contactanos"></TextoOscuro> */}

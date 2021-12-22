@@ -11,3 +11,20 @@ text-transform: uppercase;
 font-feature-settings: 'tnum' on, 'onum' on, 'liga' off, 'kern' off;
 color: #E7FFD4;
 }
+@media (max-width:380px){
+    .titulo-principal{
+        font-family: 'Orbitron', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 38px;
+        text-transform: uppercase;
+        font-feature-settings: 'tnum' on, 'onum' on, 'liga' off, 'kern' off;
+        color: #E7FFD4;
+        }
+}
+@media(max-width:310px){
+   .titulo-principal{
+         font-size: 18px;     
+    }
+}

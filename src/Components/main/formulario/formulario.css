@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+/* .Contacto{
+    border: solid 1px red;
+} */
 .formulario{
     display: flex;
     flex-direction: column;
@@ -33,7 +36,7 @@
     font-family: 'Aldrich', sans-serif;
 }
 .form input, textarea, select{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     border-top: none;
     border-right: none;
     border-left: none;
@@ -45,10 +48,13 @@
     color: white;
     margin-top: 20px;
 }
+::placeholder{
+    color: #BEE1A3;
+}
 .form input:focus,
 .form textarea:focus,
 .form select:focus{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     border-top: transparent;
     border-right: transparent;
     border-left: transparent;
@@ -60,5 +66,84 @@
         width: 80%;
         color: white;
         font-size: 15px;
+    }
+}
+/* MOON */
+.animacion-moon{
+    position: absolute;
+    top: 10%;
+    right: 10vw;
+    animation: move 10s linear;
+    z-index: -1;
+}
+.moon{
+    animation: moon 20s linear infinite;
+}
+.animacion-ete{
+    position: absolute;
+    top: 28vh;
+    left: 80vw;
+    animation: ete 17s linear;
+    z-index: -1;
+    opacity: 0;
+}
+.ete{
+    animation: ete-bici 17s linear;
+}
+@keyframes moon {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes move {
+    0%{
+         top: -100%;
+    }
+    100%{
+         top: 10%;
+    }
+}
+@keyframes ete {
+    0%{
+        left: 0vw;
+        top: 75vh;
+        opacity: 1;
+    }
+    100%{
+       left: 80vw;
+       top: 18vh;
+       opacity: 0;
+    }
+}
+@keyframes ete-bici {
+    0%{
+        transform: rotate(15deg);
+        /* transform: translateY(-50%); */
+        /* opacity: 1; */
+    }
+    50%{
+        transform: rotate(5deg);
+        /* transform: translateY(-20%); */
+        /* opacity: 0.7; */
+    }
+    75%{
+        transform: rotate(10deg);
+        /* opacity: 0.5; */
+    }
+    100%{
+        transform: rotate(20deg);
+        /* transform: translateY(0%); */
+        /* opacity: 0; */
+    }
+}
+@media (max-width:760px){
+    .animacion-moon{
+        display: none;
+    }
+    .animacion-ete{
+        display: none;
     }
 }

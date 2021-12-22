@@ -31,3 +31,15 @@ color: #E7FFD4;
     color: #B000DD;;
     
 }
+
+@media (max-width:380px){
+    .texto-claro{
+        /* Property 1=Default */
+        font-family: 'Aldrich', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #E7FFD4;
+        }
+}

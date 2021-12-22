@@ -22,7 +22,7 @@ border: solid 1px blueviolet;
 
 .link{
     padding: 15px;
-    background-color: black;
+    /* background-color: black; */
     color: #E7FFD4;
     width:150px;
     font-size: 18px;
